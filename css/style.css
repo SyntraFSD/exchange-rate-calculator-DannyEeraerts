@@ -1,0 +1,78 @@
+body{
+  margin: auto;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+h1{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+select{
+  width: 8em;
+  height: 1.75em;
+  margin-bottom: 0.5em;
+  border-radius: 0;
+}
+main{
+  background-color: lightgrey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3em;
+  -webkit-box-shadow: 10px 10px 8px 0 rgba(32,35,38,0.5);
+  -moz-box-shadow: 10px 10px 8px 0 rgba(32,35,38,0.5);
+  box-shadow: 10px 10px 8px 0 rgba(32,35,38,0.5);
+}
+button {
+  text-align: center;
+  padding: 0.25em 0.65em;
+  border: none;
+  border-radius: 3px;
+  background-color: #202326;
+  color: snow;
+}
+button:hover{
+  background: white;
+  color: darkorange;
+}
+#resultcontainer{
+  width: 5em;
+  background-color: white;
+  height: 1em;
+}
+input{
+  height: 1.75em;
+}
+
+input[type=number]{
+  width: 8em;
+  margin-bottom: 0.5em
+}
+input[type=text]{
+  height: 1.75em !important;
+  width: 8em !important;
+  margin-left: 0.5em;
+}
+input[type=date]{
+  padding: 0 0.5em;
+}
+i{
+  padding: 0.35em 1em;
+  background: black;
+  color: white;
+}
+label{
+  padding-right: 2.3em;
+}
+label[for="startdate"]{
+  padding-right: 0.65em;
+}
+.font2{
+  color: snow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.font1{
+  color: #202326;
+  text-shadow: -0.5px 0 snow, 0 0.5px snow, 0.5px 0 snow, 0 -0.5px snow;
+}
